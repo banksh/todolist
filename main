@@ -28,7 +28,7 @@ while '' in curlist:
 for i in curlist[::-1]:
 	print "%d: %s" %(curlist[::-1].index(i)+1,i)
 if not curlist:
-	print "Todo list empty!"
+	print "Todo list is empty!"
 
 open(path.replace('main','curlist'),'w').write(str(curlist[::-1]))
 
