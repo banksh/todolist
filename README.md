@@ -13,6 +13,9 @@ Running the program without arguments will just print out your list.
 
 Example use:
 ```
+./main
+Todo list is empty!
+
 ./main "Third thing I want to get done"
 1: Third thing I want to get done
 
