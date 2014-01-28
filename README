@@ -14,7 +14,7 @@ Example use:
 ./main "Third thing I want to get done"
 1: Third thing I want to get done
 
-./main "Second thing I want to get done" "First thing I want to get done
+./main "Second thing I want to get done" "First thing I want to get done"
 1: First thing I want to get done
 2: Second thing I want to get done
 3: Third thing I want to get done
