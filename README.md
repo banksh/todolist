@@ -10,7 +10,7 @@ If you want to remove entries, enter either the same text as the entry (case-ins
 You can remove an arbitrary number of entries simultaneously, just separate the removal arguments with spaces.
 
 Example use:
-
+```
 ./main "Third thing I want to get done"
 1: Third thing I want to get done
 
@@ -24,3 +24,4 @@ Example use:
 
 ./main 'second thing i want to get done'
 Todo list is empty!
+```
