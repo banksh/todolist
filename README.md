@@ -9,7 +9,12 @@ The most recent item always goes on top of the list.
 If you want to remove entries, enter either the same text as the entry (case-insensitive) or just the number of the entry as an argument.
 You can remove an arbitrary number of entries simultaneously, just separate the removal arguments with spaces.
 
+Running the program without arguments will just print out your list.
+
 Example use:
+```
+./main
+Todo list is empty!
 
 ./main "Third thing I want to get done"
 1: Third thing I want to get done
@@ -24,3 +29,4 @@ Example use:
 
 ./main 'second thing i want to get done'
 Todo list is empty!
+```
