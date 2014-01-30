@@ -17,7 +17,7 @@ while items and re.match('^[1-9]+$',items[0]):
 
 curlist = curlist[::-1]
 
-cilist = map(lambda x: x.lower,curlist)
+cilist = [i.lower() for i in curlist]
 for item in items:
         if item.lower() in cilist:
                 curlist[cilist.index(item.lower())] = ''
